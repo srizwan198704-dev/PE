@@ -4,21 +4,21 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # এটি দিয়ে আপনি GitHub ওয়েবসাইটের Actions ট্যাব থেকে ম্যানুয়ালি রান করতে পারবেন
+  workflow_dispatch:
 
 jobs:
   build-and-process:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write # অটোমেটিক কমিট ও পুশ করার অনুমতি প্রদান
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/uses-python@v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
