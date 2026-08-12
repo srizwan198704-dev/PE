@@ -1,0 +1,61 @@
+name: Update Sura JSON Links
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'suras/**'  # suras ফোল্ডারে পরিবর্তন হলে অ্যাকশনটি রান হবে
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    
+    # রেপোজিটরিতে রাইট পারমিশন দেওয়ার জন্য
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Update sura.json with jsDelivr links
+        run: |
+          node -e '
+            const fs = require("fs");
+            
+            // sura.json রিড করা
+            const suraData = JSON.parse(fs.readFileSync("sura.json", "utf8"));
+            
+            const username = "srizwan198704-dev";
+            const repo = "PE";
+            const branch = "main";
+            
+            // প্রতিটি অবজেক্টে লিংক যুক্ত করা
+            const updatedData = suraData.map((item, index) => {
+              // সিরিয়াল নম্বর যদি অবজেক্টের ভেতর id/number থাকে তা ব্যবহার হবে, নতুবা Index + 1
+              const suraNumber = item.id || item.number || (index + 1);
+              
+              return {
+                ...item,
+                link: `https://cdn.jsdelivr.net/gh/${username}/${repo}@${branch}/suras/${suraNumber}.json`
+              };
+            });
+            
+            // আপডেট হওয়া ডাটা sura.json এ পুনরায় রাইট করা
+            fs.writeFileSync("sura.json", JSON.stringify(updatedData, null, 2), "utf8");
+          '
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add sura.json
+          
+          # যদি কোনো পরিবর্তন থাকে তবেই কমিট করবে
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update sura CDN links" && git push)
