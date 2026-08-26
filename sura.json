@@ -4,127 +4,111 @@
     "suraName": "আল ফাতিহা",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ৭",
-    "suraArabic": "سُّورَة الفَاتِحَة",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/1.json"
+    "suraArabic": "سُّورَة الفَاتِحَة"
   },
   {
     "sura": "2",
     "suraName": "আল বাকারা",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ২৮৬",
-    "suraArabic": "سُّورَة البَقَرَة",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/2.json"
+    "suraArabic": "سُّورَة البَقَرَة"
   },
   {
     "sura": "3",
     "suraName": "আলে ইমরান",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ২০০",
-    "suraArabic": "سُّورَة آل عِمرَان",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/3.json"
+    "suraArabic": "سُّورَة آل عِمرَان"
   },
   {
     "sura": "4",
     "suraName": "আন নিসা",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ১৭৬",
-    "suraArabic": "سُّورَة النِّسَاء",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/4.json"
+    "suraArabic": "سُّورَة النِّسَاء"
   },
   {
     "sura": "5",
     "suraName": "আল মা-য়েদা",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ১২০",
-    "suraArabic": "سُّورَة المَائدة",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/5.json"
+    "suraArabic": "سُّورَة المَائدة"
   },
   {
     "sura": "6",
     "suraName": "আল আনআম",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১৬৫",
-    "suraArabic": "سُّورَة الأنعَام",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/6.json"
+    "suraArabic": "سُّورَة الأنعَام"
   },
   {
     "sura": "7",
     "suraName": "আল আরাফ",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ২০৬",
-    "suraArabic": "سُّورَة الأعرَاف",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/7.json"
+    "suraArabic": "سُّورَة الأعرَاف"
   },
   {
     "sura": "8",
     "suraName": "আল আনফাল",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ১৭৫",
-    "suraArabic": "سُّورَة الأنفَال",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/8.json"
+    "suraArabic": "سُّورَة الأنفَال"
   },
   {
     "sura": "9",
     "suraName": "আত তওবা",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ১২৯",
-    "suraArabic": "سُّورَة التوبَة",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/9.json"
+    "suraArabic": "سُّورَة التوبَة"
   },
   {
     "sura": "10",
     "suraName": "ইউনুস",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১০৯",
-    "suraArabic": "سُّورَة يُونس",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/10.json"
+    "suraArabic": "سُّورَة يُونس"
   },
   {
     "sura": "11",
     "suraName": "হূদ",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১২৩",
-    "suraArabic": "سُّورَة هُود",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/11.json"
+    "suraArabic": "سُّورَة هُود"
   },
   {
     "sura": "12",
     "suraName": "ইউসুফ",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১১১",
-    "suraArabic": "سُّورَة يُوسُف",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/12.json"
+    "suraArabic": "سُّورَة يُوسُف"
   },
   {
     "sura": "13",
     "suraName": "আর রাদ",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ৪৩",
-    "suraArabic": "سُّورَة الرَّعْد",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/13.json"
+    "suraArabic": "سُّورَة الرَّعْد"
   },
   {
     "sura": "14",
     "suraName": "ইবরাহীম",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ৫২",
-    "suraArabic": "سُّورَة إبراهِيم",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/14.json"
+    "suraArabic": "سُّورَة إبراهِيم"
   },
   {
     "sura": "15",
     "suraName": "আল হিজর",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ৯৯",
-    "suraArabic": "سُّورَة الحِجْر",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/15.json"
+    "suraArabic": "سُّورَة الحِجْر"
   },
   {
     "sura": "16",
     "suraName": "আন নাহল",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১২৮",
-    "suraArabic": "سُّورَة النَّحْل",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/16.json"
+    "suraArabic": "سُّورَة النَّحْل"
   }
 ]
