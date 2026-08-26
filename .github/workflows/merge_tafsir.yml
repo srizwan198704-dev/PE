@@ -1,0 +1,99 @@
+name: Merge Tafsir JSON by Number
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'tafsir/**.json'
+      - '.github/workflows/merge-tafsir.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge-tafsir:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Merge Tafsir1.json by number order
+        run: |
+          python3 << 'PY'
+          import re
+          import json
+          from pathlib import Path
+
+          input_folder = Path("tafsir")
+          output_file = Path("tafsire_mazhari/tafsir.json")
+
+          # output folder create kore nao
+          output_file.parent.mkdir(parents=True, exist_ok=True)
+
+          if not input_folder.exists():
+              print("Input folder 'tafsir' not found!")
+              exit(1)
+
+          # Tafsir1.json, Tafsir2.json, Tafsir114.json
+          pattern = re.compile(r'^Tafsir(\d+)\.json$', re.IGNORECASE)
+
+          files_with_number = []
+          for f in input_folder.glob("*.json"):
+              m = pattern.match(f.name)
+              if m:
+                  num = int(m.group(1))
+                  files_with_number.append((num, f))
+
+          # number onujayi sort 1,2,3...
+          files_with_number.sort(key=lambda x: x[0])
+
+          print(f"Found {len(files_with_number)} files:")
+          for num, f in files_with_number:
+              print(f" {num}: {f.name}")
+
+          if not files_with_number:
+              print("No Tafsir<number>.json files found!")
+              exit(1)
+
+          merged_data = []
+
+          for num, file_path in files_with_number:
+              try:
+                  with open(file_path, 'r', encoding='utf-8') as jf:
+                      data = json.load(jf)
+                      # array hole extend, object hole append - details intact thakbe
+                      if isinstance(data, list):
+                          merged_data.extend(data)
+                      else:
+                          merged_data.append(data)
+              except Exception as e:
+                  print(f"Error reading {file_path}: {e}")
+                  exit(1)
+
+          # final output
+          with open(output_file, 'w', encoding='utf-8') as out:
+              json.dump(merged_data, out, ensure_ascii=False, indent=2)
+
+          print(f"Merged successfully -> {output_file} | Total items: {len(merged_data)}")
+          PY
+
+      - name: Commit and push merged file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tafsire_mazhari/tafsir.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto merge Tafsir1..N.json to tafsire_mazhari/tafsir.json [skip ci]"
+            git push
+          fi
