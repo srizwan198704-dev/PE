@@ -1,130 +1,800 @@
 [
   {
-    "sura": "1",
+    "sura": "১",
     "suraName": "আল ফাতিহা",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ৭",
-    "suraArabic": "سُّورَة الفَاتِحَة",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/1.json"
+    "suraArabic": "سُّورَة الفَاتِحَة"
   },
   {
-    "sura": "2",
-    "suraName": "আল বাকারা",
+    "sura": "২",
+    "suraName": "আল বাকারাহ",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ২৮৬",
-    "suraArabic": "سُّورَة البَقَرَة",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/2.json"
+    "suraArabic": "سُّورَة البَقَرَة"
   },
   {
-    "sura": "3",
+    "sura": "৩",
     "suraName": "আলে ইমরান",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ২০০",
-    "suraArabic": "سُّورَة آل عِمرَان",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/3.json"
+    "suraArabic": "سُّورَة آل عِمرَان"
   },
   {
-    "sura": "4",
+    "sura": "৪",
     "suraName": "আন নিসা",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ১৭৬",
-    "suraArabic": "سُّورَة النِّسَاء",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/4.json"
+    "suraArabic": "سُّورَة النِّسَاء"
   },
   {
-    "sura": "5",
-    "suraName": "আল মা-য়েদা",
+    "sura": "৫",
+    "suraName": "আল মা-য়েদাহ",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ১২০",
-    "suraArabic": "سُّورَة المَائدة",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/5.json"
+    "suraArabic": "سُّورَة المَائدة"
   },
   {
-    "sura": "6",
+    "sura": "৬",
     "suraName": "আল আনআম",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১৬৫",
-    "suraArabic": "سُّورَة الأنعَام",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/6.json"
+    "suraArabic": "سُّورَة الأنعَام"
   },
   {
-    "sura": "7",
+    "sura": "৭",
     "suraName": "আল আরাফ",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ২০৬",
-    "suraArabic": "سُّورَة الأعرَاف",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/7.json"
+    "suraArabic": "سُّورَة الأعرَاف"
   },
   {
-    "sura": "8",
+    "sura": "৮",
     "suraName": "আল আনফাল",
     "type": "মাদানী",
-    "versess": "মোট আয়াত : ১৭৫",
-    "suraArabic": "سُّورَة الأنفَال",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/8.json"
+    "versess": "মোট আয়াত : ৭৫",
+    "suraArabic": "سُّورَة الأنفَال"
   },
   {
-    "sura": "9",
+    "sura": "৯",
     "suraName": "আত তওবা",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ১২৯",
-    "suraArabic": "سُّورَة التوبَة",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/9.json"
+    "suraArabic": "سُّورَة التوبَة"
   },
   {
-    "sura": "10",
+    "sura": "১০",
     "suraName": "ইউনুস",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১০৯",
-    "suraArabic": "سُّورَة يُونس",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/10.json"
+    "suraArabic": "سُّورَة يُونس"
   },
   {
-    "sura": "11",
-    "suraName": "হূদ",
+    "sura": "১১",
+    "suraName": "হুদ",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১২৩",
-    "suraArabic": "سُّورَة هُود",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/11.json"
+    "suraArabic": "سُّورَة هُود"
   },
   {
-    "sura": "12",
+    "sura": "১২",
     "suraName": "ইউসুফ",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১১১",
-    "suraArabic": "سُّورَة يُوسُف",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/12.json"
+    "suraArabic": "سُّورَة يُوسُف"
   },
   {
-    "sura": "13",
+    "sura": "১৩",
     "suraName": "আর রাদ",
     "type": "মাদানী",
     "versess": "মোট আয়াত : ৪৩",
-    "suraArabic": "سُّورَة الرَّعْد",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/13.json"
+    "suraArabic": "سُّورَة الرَّعْد"
   },
   {
-    "sura": "14",
+    "sura": "১৪",
     "suraName": "ইবরাহীম",
-    "type": "মাদানী",
+    "type": "মাক্কী",
     "versess": "মোট আয়াত : ৫২",
-    "suraArabic": "سُّورَة إبراهِيم",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/14.json"
+    "suraArabic": "سُّورَة إبراهِيم"
   },
   {
-    "sura": "15",
+    "sura": "১৫",
     "suraName": "আল হিজর",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ৯৯",
-    "suraArabic": "سُّورَة الحِجْر",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/15.json"
+    "suraArabic": "سُّورَة الحِجْر"
   },
   {
-    "sura": "16",
+    "sura": "১৬",
     "suraName": "আন নাহল",
     "type": "মাক্কী",
     "versess": "মোট আয়াত : ১২৮",
-    "suraArabic": "سُّورَة النَّحْل",
-    "link": "https://cdn.jsdelivr.net/gh/srizwan198704-dev/PE@main/suras/16.json"
+    "suraArabic": "سُّورَة النَّحْل"
+  },
+  {
+    "sura": "১৭",
+    "suraName": "বনী ইসরাঈল",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১১১",
+    "suraArabic": "سُّورَة الإسْرَاء"
+  },
+  {
+    "sura": "১৮",
+    "suraName": "আল কাহফ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১১০",
+    "suraArabic": "سُّورَة الكهْف"
+  },
+  {
+    "sura": "১৯",
+    "suraName": "মারয়াম",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৯৮",
+    "suraArabic": "سُّورَة مَريَم"
+  },
+  {
+    "sura": "২০",
+    "suraName": "ত্বাহা",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১৩৫",
+    "suraArabic": "سُّورَة طه"
+  },
+  {
+    "sura": "২১",
+    "suraName": "আল আম্বিয়া",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১১২",
+    "suraArabic": "سُّورَة الأنبيَاء"
+  },
+  {
+    "sura": "২২",
+    "suraName": "আল হাজ্জ",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ৭৮",
+    "suraArabic": "سُّورَة الحَج"
+  },
+  {
+    "sura": "২৩",
+    "suraName": "আল মুমিনূন",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১১৮",
+    "suraArabic": "سُّورَة المُؤمنون"
+  },
+  {
+    "sura": "২৪",
+    "suraName": "আন নূর",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ৬৪",
+    "suraArabic": "سُّورَة النُّور"
+  },
+  {
+    "sura": "২৫",
+    "suraName": "আল-ফুরকান",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৭৭",
+    "suraArabic": "سُّورَة الفُرْقان"
+  },
+  {
+    "sura": "২৬",
+    "suraName": "আশ-শু’আরা",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২২৭",
+    "suraArabic": "سُّورَة الشُّعَرَاء"
+  },
+  {
+    "sura": "২৭",
+    "suraName": "আন নামল",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৯৩",
+    "suraArabic": "سُّورَة النَّمْل"
+  },
+  {
+    "sura": "২৮",
+    "suraName": "আল কাসাস",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৮৮",
+    "suraArabic": "سُّورَة القَصَص"
+  },
+  {
+    "sura": "২৯",
+    "suraName": "আল আনকাবূত",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৬৯",
+    "suraArabic": "سُّورَة العَنكبوت"
+  },
+  {
+    "sura": "৩০",
+    "suraName": "আর রূম",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৬০",
+    "suraArabic": "سُّورَة الرُّوم"
+  },
+  {
+    "sura": "৩১",
+    "suraName": "লুকমান",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৩৪",
+    "suraArabic": "سُّورَة لقمَان"
+  },
+  {
+    "sura": "৩২",
+    "suraName": "আস সাজদাহ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৩০",
+    "suraArabic": "سُّورَة السَّجدَة"
+  },
+  {
+    "sura": "৩৩",
+    "suraName": "আল আহযাব",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ৭৩",
+    "suraArabic": "سُّورَة الأحزَاب"
+  },
+  {
+    "sura": "৩৪",
+    "suraName": "আস সাবা",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫৪",
+    "suraArabic": "سُّورَة سَبَأ"
+  },
+  {
+    "sura": "৩৫",
+    "suraName": "ফাতের",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪৫",
+    "suraArabic": "سُّورَة فَاطِر"
+  },
+  {
+    "sura": "৩৬",
+    "suraName": "ইয়া-সীন",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৮৩",
+    "suraArabic": "سُّورَة يس"
+  },
+  {
+    "sura": "৩৭",
+    "suraName": "আস্ সা-ফফা-ত",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১৮২",
+    "suraArabic": "سُّورَة الصَّافات"
+  },
+  {
+    "sura": "৩৮",
+    "suraName": "সা-দ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৮৮",
+    "suraArabic": "سُّورَة ص"
+  },
+  {
+    "sura": "৩৯",
+    "suraName": "আয যুমার",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৭৫",
+    "suraArabic": "سُّورَة الزُّمَر"
+  },
+  {
+    "sura": "৪০",
+    "suraName": "আল মুমিন",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৮৫",
+    "suraArabic": "سُّورَة غَافِر"
+  },
+  {
+    "sura": "৪১",
+    "suraName": "হা-মীম আস সাজদাহ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫৪",
+    "suraArabic": "سُّورَة فُصِّلَتْ"
+  },
+  {
+    "sura": "৪২",
+    "suraName": "আশ শূরা",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫৩",
+    "suraArabic": "سُّورَة الشُّورَى"
+  },
+  {
+    "sura": "৪৩",
+    "suraName": "আয্ যুখরুফ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৮৯",
+    "suraArabic": "سُّورَة الزُّخْرُف"
+  },
+  {
+    "sura": "৪৪",
+    "suraName": "আদ দুখান",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫৯",
+    "suraArabic": "سُّورَة الدخَان"
+  },
+  {
+    "sura": "৪৫",
+    "suraName": "আল জাসিয়াহ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৩৭",
+    "suraArabic": "سُّورَة الجَاثيَة"
+  },
+  {
+    "sura": "৪৬",
+    "suraName": "আল আহক্বাফ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৩৫",
+    "suraArabic": "سُّورَة الأحْقاف"
+  },
+  {
+    "sura": "৪৭",
+    "suraName": "মুহাম্মদ",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ৩৮",
+    "suraArabic": "سُّورَة محَمَّد"
+  },
+  {
+    "sura": "৪৮",
+    "suraName": "আল ফাতহ",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ২৯",
+    "suraArabic": "سُّورَة الفَتْح"
+  },
+  {
+    "sura": "৪৯",
+    "suraName": "আল হুজুরাত",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ১৮",
+    "suraArabic": "سُّورَة الحُجرَات"
+  },
+  {
+    "sura": "৫০",
+    "suraName": "ক্বাফ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪৫",
+    "suraArabic": "سُّورَة ق"
+  },
+  {
+    "sura": "৫১",
+    "suraName": "আয যারিয়াত",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৬০",
+    "suraArabic": "سُّورَة الذَّاريَات"
+  },
+  {
+    "sura": "৫২",
+    "suraName": "আত তূর",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪৯",
+    "suraArabic": "سُّورَة الطُّور"
+  },
+  {
+    "sura": "৫৩",
+    "suraName": "আন নাজম",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৬২",
+    "suraArabic": "سُّورَة النَّجْم"
+  },
+  {
+    "sura": "৫৪",
+    "suraName": "আল ক্বামার",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫৫",
+    "suraArabic": "سُّورَة القَمَر"
+  },
+  {
+    "sura": "৫৫",
+    "suraName": "আর রহমান",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ৭৮",
+    "suraArabic": "سُّورَة الرَّحمن"
+  },
+  {
+    "sura": "৫৬",
+    "suraName": "আল ওয়াকি’আ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৯৬",
+    "suraArabic": "سُّورَة الوَاقِعَة"
+  },
+  {
+    "sura": "৫৭",
+    "suraName": "আল হাদীদ",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ২৯",
+    "suraArabic": "سُّورَة الحَديد"
+  },
+  {
+    "sura": "৫৮",
+    "suraName": "আল মুজাদালাহ",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ২২",
+    "suraArabic": "سُّورَة المجَادلة"
+  },
+  {
+    "sura": "৫৯",
+    "suraName": "আল হাশর",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ২৪",
+    "suraArabic": "سُّورَة الحَشر"
+  },
+  {
+    "sura": "৬০",
+    "suraName": "আল মুমতাহিনা",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ১৩",
+    "suraArabic": "سُّورَة المُمتَحنَة"
+  },
+  {
+    "sura": "৬১",
+    "suraName": "আস সফ",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ১৪",
+    "suraArabic": "سُّورَة الصَّف"
+  },
+  {
+    "sura": "৬২",
+    "suraName": "আল জুমআ",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ১১",
+    "suraArabic": "سُّورَة الجُمُعَة"
+  },
+  {
+    "sura": "৬৩",
+    "suraName": "আল মুনাফিকুন",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ১১",
+    "suraArabic": "سُّورَة المنَافِقون"
+  },
+  {
+    "sura": "৬৪",
+    "suraName": "আত তাগাবুন",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ১৮",
+    "suraArabic": "سُّورَة التغَابُن"
+  },
+  {
+    "sura": "৬৫",
+    "suraName": "আত তালাক",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ১২",
+    "suraArabic": "سُّورَة الطلَاق"
+  },
+  {
+    "sura": "৬৬",
+    "suraName": "আত তাহরীম",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ১২",
+    "suraArabic": "سُّورَة التحْريم"
+  },
+  {
+    "sura": "৬৭",
+    "suraName": "আল মুলক",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৩০",
+    "suraArabic": "سُّورَة المُلْك"
+  },
+  {
+    "sura": "৬৮",
+    "suraName": "আল কলম",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫২",
+    "suraArabic": "سُّورَة القَلَم"
+  },
+  {
+    "sura": "৬৯",
+    "suraName": "আল হাককাহ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫২",
+    "suraArabic": "سُّورَة الحَاقَّة"
+  },
+  {
+    "sura": "৭০",
+    "suraName": "আল মাআরিজ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪৪",
+    "suraArabic": "سُّورَة المعَارج"
+  },
+  {
+    "sura": "৭১",
+    "suraName": "নূহ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২৮",
+    "suraArabic": "سُّورَة نُوح"
+  },
+  {
+    "sura": "৭২",
+    "suraName": "আল জিন",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২৮",
+    "suraArabic": "سُّورَة الجِن"
+  },
+  {
+    "sura": "৭৩",
+    "suraName": "আল মুযযাম্মিল",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২০",
+    "suraArabic": "سُّورَة المُزَّمِّل"
+  },
+  {
+    "sura": "৭৪",
+    "suraName": "আল মুদ্দাস্সির",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫৬",
+    "suraArabic": "سُّورَة المُدَّثِّر"
+  },
+  {
+    "sura": "৭৫",
+    "suraName": "আল কিয়ামাহ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪০",
+    "suraArabic": "سُّورَة القِيَامَة"
+  },
+  {
+    "sura": "৭৬",
+    "suraName": "আদ্ দাহর",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ৩১",
+    "suraArabic": "سُّورَة الإنسَان"
+  },
+  {
+    "sura": "৭৭",
+    "suraName": "আল মুরসালাত",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫০",
+    "suraArabic": "سُّورَة المُرسَلات"
+  },
+  {
+    "sura": "৭৮",
+    "suraName": "আন নাবা",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪০",
+    "suraArabic": "سُّورَة النَّبَأ"
+  },
+  {
+    "sura": "৭৯",
+    "suraName": "আন নাযি’আত",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪৬",
+    "suraArabic": "سُّورَة النّازعَات"
+  },
+  {
+    "sura": "৮০",
+    "suraName": "আবাসা",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪২",
+    "suraArabic": "سُّورَة عَبَس"
+  },
+  {
+    "sura": "৮১",
+    "suraName": "আত তাকবীর",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২৯",
+    "suraArabic": "سُّورَة التَّكوير"
+  },
+  {
+    "sura": "৮২",
+    "suraName": "আল ইনফিতার",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১৯",
+    "suraArabic": "سُّورَة الانفِطار"
+  },
+  {
+    "sura": "৮৩",
+    "suraName": "আল মুতাফ্ফিফীন",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৩৬",
+    "suraArabic": "سُّورَة المطفِّفِين"
+  },
+  {
+    "sura": "৮৪",
+    "suraName": "আল ইনশিকাক",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২৫",
+    "suraArabic": "سُّورَة الانْشِقَاق"
+  },
+  {
+    "sura": "৮৫",
+    "suraName": "আল বুরূজ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২২",
+    "suraArabic": "سُّورَة البرُوج"
+  },
+  {
+    "sura": "৮৬",
+    "suraName": "আত তারিক",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১৭",
+    "suraArabic": "سُّورَة الطَّارِق"
+  },
+  {
+    "sura": "৮৭",
+    "suraName": "আল আ’লা",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১৯",
+    "suraArabic": "سُّورَة الأَعْلى"
+  },
+  {
+    "sura": "৮৮",
+    "suraName": "আল গাশিয়াহ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২৬",
+    "suraArabic": "سُّورَة الغَاشِية"
+  },
+  {
+    "sura": "৮৯",
+    "suraName": "আল ফজর",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৩০",
+    "suraArabic": "سُّورَة الفَجْر"
+  },
+  {
+    "sura": "৯০",
+    "suraName": "আল বালাদ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২০",
+    "suraArabic": "سُّورَة البَلَد"
+  },
+  {
+    "sura": "৯১",
+    "suraName": "আশ শামস",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১৫",
+    "suraArabic": "سُّورَة الشَّمْس"
+  },
+  {
+    "sura": "৯২",
+    "suraName": "আল লাইল",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ২১",
+    "suraArabic": "سُّورَة الليْل"
+  },
+  {
+    "sura": "৯৩",
+    "suraName": "আদ দুহা",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১১",
+    "suraArabic": "سُّورَة الضُّحَى"
+  },
+  {
+    "sura": "৯৪",
+    "suraName": "আলাম নাশরাহ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৮",
+    "suraArabic": "سُّورَة الشَّرْح"
+  },
+  {
+    "sura": "৯৫",
+    "suraName": "আত তীন",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৮",
+    "suraArabic": "سُّورَة التِّين"
+  },
+  {
+    "sura": "৯৬",
+    "suraName": "আল আলাক",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১৯",
+    "suraArabic": "سُّورَة العَلَق"
+  },
+  {
+    "sura": "৯৭",
+    "suraName": "আল কাদ্‌র",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫",
+    "suraArabic": "سُّورَة القَدْر"
+  },
+  {
+    "sura": "৯৮",
+    "suraName": "আল বাইয়েনাহ",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ৮",
+    "suraArabic": "سُّورَة البَينَة"
+  },
+  {
+    "sura": "৯৯",
+    "suraName": "আল যিলযাল",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ৮",
+    "suraArabic": "سُّورَة الزلزَلة"
+  },
+  {
+    "sura": "১০০",
+    "suraName": "আল আদিয়াত",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১১",
+    "suraArabic": "سُّورَة العَادِيات"
+  },
+  {
+    "sura": "১০১",
+    "suraName": "আল কারি’আহ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ১১",
+    "suraArabic": "سُّورَة القَارِعة"
+  },
+  {
+    "sura": "১০২",
+    "suraName": "আত তাকাসুর",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৮",
+    "suraArabic": "سُّورَة التَّكَاثر"
+  },
+  {
+    "sura": "১০৩",
+    "suraName": "আল আসর",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৩",
+    "suraArabic": "سُّورَة العَصْر"
+  },
+  {
+    "sura": "১০৪",
+    "suraName": "আল হুমাযা",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৯",
+    "suraArabic": "سُّورَة الهُمَزَة"
+  },
+  {
+    "sura": "১০৫",
+    "suraName": "আল ফীল",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫",
+    "suraArabic": "سُّورَة الفِيل"
+  },
+  {
+    "sura": "১০৬",
+    "suraName": "কুরাইশ",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪",
+    "suraArabic": "سُّورَة قُرَيْش"
+  },
+  {
+    "sura": "১০৭",
+    "suraName": "আল মাউন",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৭",
+    "suraArabic": "سُّورَة المَاعُون"
+  },
+  {
+    "sura": "১০৮",
+    "suraName": "আল কাউসার",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৩",
+    "suraArabic": "سُّورَة الكَوْثَر"
+  },
+  {
+    "sura": "১০৯",
+    "suraName": "আল কাফিরূন",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৬",
+    "suraArabic": "سُّورَة الكَافِرُون"
+  },
+  {
+    "sura": "১১০",
+    "suraName": "আন নসর",
+    "type": "মাদানী",
+    "versess": "মোট আয়াত : ৩",
+    "suraArabic": "سُّورَة النَّصر"
+  },
+  {
+    "sura": "১১১",
+    "suraName": "আল লাহাব",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫",
+    "suraArabic": "سُّورَة اللَهَب"
+  },
+  {
+    "sura": "১১২",
+    "suraName": "আল ইখলাস",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৪",
+    "suraArabic": "سُّورَة الإخْلَاص"
+  },
+  {
+    "sura": "১১৩",
+    "suraName": "আল ফালাক",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৫",
+    "suraArabic": "سُّورَة الفَلَق"
+  },
+  {
+    "sura": "১১৪",
+    "suraName": "আন নাস",
+    "type": "মাক্কী",
+    "versess": "মোট আয়াত : ৬",
+    "suraArabic": "سُّورَة النَّاس"
   }
 ]
