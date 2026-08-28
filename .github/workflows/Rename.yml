@@ -1,0 +1,106 @@
+name: Rename author key to irfanul and Purge jsDelivr
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'suras/*.json'
+
+permissions:
+  contents: write
+
+jobs:
+  rename-and-purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Rename author key to irfanul in suras folder
+        run: |
+          python3 << 'PY'
+          import json
+          import glob
+          import os
+
+          folder = "suras"
+          files = glob.glob(os.path.join(folder, "*.json"))
+
+          if not files:
+              print(f"No json files found in {folder}/")
+              exit(0)
+
+          changed_files = 0
+          for filepath in files:
+              print(f"Processing: {filepath}")
+              try:
+                  with open(filepath, 'r', encoding='utf-8') as f:
+                      data = json.load(f)
+
+                  modified = False
+
+                  # Case 1: data is list of objects [ { author: ... } ]
+                  if isinstance(data, list):
+                      for item in data:
+                          if isinstance(item, dict) and "author" in item:
+                              item["irfanul"] = item.pop("author")
+                              modified = True
+
+                  # Case 2: data is single dict
+                  elif isinstance(data, dict):
+                      if "author" in data:
+                          data["irfanul"] = data.pop("author")
+                          modified = True
+                      # Case 3: dict contains arrays inside
+                      for key, value in data.items():
+                          if isinstance(value, list):
+                              for item in value:
+                                  if isinstance(item, dict) and "author" in item:
+                                      item["irfanul"] = item.pop("author")
+                                      modified = True
+
+                  if modified:
+                      with open(filepath, 'w', encoding='utf-8') as f:
+                          json.dump(data, f, ensure_ascii=False, indent=2)
+                      print(f"  -> Updated: {filepath}")
+                      changed_files += 1
+                  else:
+                      print(f"  -> No author key found: {filepath}")
+
+              except Exception as e:
+                  print(f"  -> Error in {filepath}: {e}")
+
+          print(f"\nTotal files changed: {changed_files}")
+          PY
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: rename author to irfanul and purge cdn"
+          file_pattern: "suras/*.json"
+
+      - name: Purge jsDelivr CDN Cache for all suras json
+        run: |
+          REPO="${{ github.repository }}"
+          BRANCH="main"
+          echo "Repository: $REPO"
+          echo "Starting jsDelivr purge..."
+
+          for file in suras/*.json; do
+            if [ -f "$file" ]; then
+              PURGE_URL="https://purge.jsdelivr.net/gh/$REPO@$BRANCH/$file"
+              echo "Purging: $PURGE_URL"
+              # jsDelivr purge works with GET request
+              curl -s -L "$PURGE_URL" -o /dev/null -w "%{http_code} - $file\n"
+              sleep 1
+            fi
+          done
+          
+          echo "All CDN purge requests completed."
